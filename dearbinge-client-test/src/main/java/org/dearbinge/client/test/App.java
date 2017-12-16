@@ -24,7 +24,7 @@ import com.dearbinge.utils.JsonUtil;
  */
 public class App {
 	public static void main(String[] args) throws IOException {
-
+     
 		CloseableHttpClient httpclient = HttpClients.createDefault();
 		String apiUrl = "http://localhost:8082/syncParkingBasicData";
 		HttpPost httpPost = new HttpPost(apiUrl);
